@@ -4,7 +4,7 @@ const W3 = require('web3');
 
 
 const main = async() => {
-    const w3 = new W3('https://data-seed-prebsc-1-s1.binance.org:8545/')
+    const w3 = new W3('https://ropsten.infura.io/v3/dcaff8ece739420a834123b407b373f4')
     const priv = '0xef256dee066fa4b3564566585d5535cb5b830fa1a146df29d16a11451cd2d632'; // Private Key
     const recipt = '0x05355FA1B61A53C4b266Ef2b459CB4FFfB6134B2';
     const account = w3.eth.accounts.privateKeyToAccount(priv);
